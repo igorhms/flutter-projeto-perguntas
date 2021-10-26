@@ -4,7 +4,8 @@ class Resposta extends StatelessWidget {
   final String texto;
   final void Function() onSelect;
 
-  Resposta(this.texto, this.onSelect);
+  // ignore: use_key_in_widget_constructors
+  const Resposta(this.texto, this.onSelect);
 
   @override
   Widget build(BuildContext context) {
